@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF8B96901C760A880025FAEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B968F1C760A880025FAEE /* main.m */; };
+		EF8B96931C760A880025FAEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B96921C760A880025FAEE /* AppDelegate.m */; };
+		EF8B96961C760A880025FAEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B96951C760A880025FAEE /* ViewController.m */; };
+		EF8B96991C760A880025FAEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8B96971C760A880025FAEE /* Main.storyboard */; };
+		EF8B969B1C760A880025FAEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8B969A1C760A880025FAEE /* Assets.xcassets */; };
+		EF8B969E1C760A880025FAEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8B969C1C760A880025FAEE /* LaunchScreen.storyboard */; };
+		EF8B96A91C760A880025FAEE /* LXDBaseAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B96A81C760A880025FAEE /* LXDBaseAnimationTests.m */; };
+		EF8B96B41C760A880025FAEE /* LXDBaseAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B96B31C760A880025FAEE /* LXDBaseAnimationUITests.m */; };
+		EF8B96C61C81D21C0025FAEE /* LXDSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B96C21C81D21C0025FAEE /* LXDSegmentControl.m */; };
+		EF8B96C71C81D21C0025FAEE /* LXDSegmentControlConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B96C41C81D21C0025FAEE /* LXDSegmentControlConfiguration.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF8B96A51C760A880025FAEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF8B96831C760A880025FAEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8B968A1C760A880025FAEE;
+			remoteInfo = LXDBaseAnimation;
+		};
+		EF8B96B01C760A880025FAEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF8B96831C760A880025FAEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8B968A1C760A880025FAEE;
+			remoteInfo = LXDBaseAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF8B968B1C760A880025FAEE /* LXDBaseAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXDBaseAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8B968F1C760A880025FAEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF8B96911C760A880025FAEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF8B96921C760A880025FAEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF8B96941C760A880025FAEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF8B96951C760A880025FAEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF8B96981C760A880025FAEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF8B969A1C760A880025FAEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF8B969D1C760A880025FAEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF8B969F1C760A880025FAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8B96A41C760A880025FAEE /* LXDBaseAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXDBaseAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8B96A81C760A880025FAEE /* LXDBaseAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXDBaseAnimationTests.m; sourceTree = "<group>"; };
+		EF8B96AA1C760A880025FAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8B96AF1C760A880025FAEE /* LXDBaseAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXDBaseAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8B96B31C760A880025FAEE /* LXDBaseAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXDBaseAnimationUITests.m; sourceTree = "<group>"; };
+		EF8B96B51C760A880025FAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8B96C11C81D21C0025FAEE /* LXDSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDSegmentControl.h; sourceTree = "<group>"; };
+		EF8B96C21C81D21C0025FAEE /* LXDSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDSegmentControl.m; sourceTree = "<group>"; };
+		EF8B96C31C81D21C0025FAEE /* LXDSegmentControlConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDSegmentControlConfiguration.h; sourceTree = "<group>"; };
+		EF8B96C41C81D21C0025FAEE /* LXDSegmentControlConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDSegmentControlConfiguration.m; sourceTree = "<group>"; };
+		EF8B96C51C81D21C0025FAEE /* LXDSegmentControlDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDSegmentControlDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF8B96881C760A880025FAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8B96A11C760A880025FAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8B96AC1C760A880025FAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF8B96821C760A880025FAEE = {
+			isa = PBXGroup;
+			children = (
+				EF8B968D1C760A880025FAEE /* LXDBaseAnimation */,
+				EF8B96A71C760A880025FAEE /* LXDBaseAnimationTests */,
+				EF8B96B21C760A880025FAEE /* LXDBaseAnimationUITests */,
+				EF8B968C1C760A880025FAEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF8B968C1C760A880025FAEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF8B968B1C760A880025FAEE /* LXDBaseAnimation.app */,
+				EF8B96A41C760A880025FAEE /* LXDBaseAnimationTests.xctest */,
+				EF8B96AF1C760A880025FAEE /* LXDBaseAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF8B968D1C760A880025FAEE /* LXDBaseAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EF8B96C11C81D21C0025FAEE /* LXDSegmentControl.h */,
+				EF8B96C21C81D21C0025FAEE /* LXDSegmentControl.m */,
+				EF8B96C31C81D21C0025FAEE /* LXDSegmentControlConfiguration.h */,
+				EF8B96C41C81D21C0025FAEE /* LXDSegmentControlConfiguration.m */,
+				EF8B96C51C81D21C0025FAEE /* LXDSegmentControlDefine.h */,
+				EF8B96911C760A880025FAEE /* AppDelegate.h */,
+				EF8B96921C760A880025FAEE /* AppDelegate.m */,
+				EF8B96941C760A880025FAEE /* ViewController.h */,
+				EF8B96951C760A880025FAEE /* ViewController.m */,
+				EF8B96971C760A880025FAEE /* Main.storyboard */,
+				EF8B969A1C760A880025FAEE /* Assets.xcassets */,
+				EF8B969C1C760A880025FAEE /* LaunchScreen.storyboard */,
+				EF8B969F1C760A880025FAEE /* Info.plist */,
+				EF8B968E1C760A880025FAEE /* Supporting Files */,
+			);
+			path = LXDBaseAnimation;
+			sourceTree = "<group>";
+		};
+		EF8B968E1C760A880025FAEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF8B968F1C760A880025FAEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF8B96A71C760A880025FAEE /* LXDBaseAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF8B96A81C760A880025FAEE /* LXDBaseAnimationTests.m */,
+				EF8B96AA1C760A880025FAEE /* Info.plist */,
+			);
+			path = LXDBaseAnimationTests;
+			sourceTree = "<group>";
+		};
+		EF8B96B21C760A880025FAEE /* LXDBaseAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF8B96B31C760A880025FAEE /* LXDBaseAnimationUITests.m */,
+				EF8B96B51C760A880025FAEE /* Info.plist */,
+			);
+			path = LXDBaseAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF8B968A1C760A880025FAEE /* LXDBaseAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8B96B81C760A880025FAEE /* Build configuration list for PBXNativeTarget "LXDBaseAnimation" */;
+			buildPhases = (
+				EF8B96871C760A880025FAEE /* Sources */,
+				EF8B96881C760A880025FAEE /* Frameworks */,
+				EF8B96891C760A880025FAEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXDBaseAnimation;
+			productName = LXDBaseAnimation;
+			productReference = EF8B968B1C760A880025FAEE /* LXDBaseAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF8B96A31C760A880025FAEE /* LXDBaseAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8B96BB1C760A880025FAEE /* Build configuration list for PBXNativeTarget "LXDBaseAnimationTests" */;
+			buildPhases = (
+				EF8B96A01C760A880025FAEE /* Sources */,
+				EF8B96A11C760A880025FAEE /* Frameworks */,
+				EF8B96A21C760A880025FAEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF8B96A61C760A880025FAEE /* PBXTargetDependency */,
+			);
+			name = LXDBaseAnimationTests;
+			productName = LXDBaseAnimationTests;
+			productReference = EF8B96A41C760A880025FAEE /* LXDBaseAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF8B96AE1C760A880025FAEE /* LXDBaseAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8B96BE1C760A880025FAEE /* Build configuration list for PBXNativeTarget "LXDBaseAnimationUITests" */;
+			buildPhases = (
+				EF8B96AB1C760A880025FAEE /* Sources */,
+				EF8B96AC1C760A880025FAEE /* Frameworks */,
+				EF8B96AD1C760A880025FAEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF8B96B11C760A880025FAEE /* PBXTargetDependency */,
+			);
+			name = LXDBaseAnimationUITests;
+			productName = LXDBaseAnimationUITests;
+			productReference = EF8B96AF1C760A880025FAEE /* LXDBaseAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF8B96831C760A880025FAEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = sindriLin;
+				TargetAttributes = {
+					EF8B968A1C760A880025FAEE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					EF8B96A31C760A880025FAEE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EF8B968A1C760A880025FAEE;
+					};
+					EF8B96AE1C760A880025FAEE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EF8B968A1C760A880025FAEE;
+					};
+				};
+			};
+			buildConfigurationList = EF8B96861C760A880025FAEE /* Build configuration list for PBXProject "LXDBaseAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF8B96821C760A880025FAEE;
+			productRefGroup = EF8B968C1C760A880025FAEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF8B968A1C760A880025FAEE /* LXDBaseAnimation */,
+				EF8B96A31C760A880025FAEE /* LXDBaseAnimationTests */,
+				EF8B96AE1C760A880025FAEE /* LXDBaseAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF8B96891C760A880025FAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8B969E1C760A880025FAEE /* LaunchScreen.storyboard in Resources */,
+				EF8B969B1C760A880025FAEE /* Assets.xcassets in Resources */,
+				EF8B96991C760A880025FAEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8B96A21C760A880025FAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8B96AD1C760A880025FAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF8B96871C760A880025FAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8B96961C760A880025FAEE /* ViewController.m in Sources */,
+				EF8B96931C760A880025FAEE /* AppDelegate.m in Sources */,
+				EF8B96C61C81D21C0025FAEE /* LXDSegmentControl.m in Sources */,
+				EF8B96C71C81D21C0025FAEE /* LXDSegmentControlConfiguration.m in Sources */,
+				EF8B96901C760A880025FAEE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8B96A01C760A880025FAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8B96A91C760A880025FAEE /* LXDBaseAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8B96AB1C760A880025FAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8B96B41C760A880025FAEE /* LXDBaseAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF8B96A61C760A880025FAEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF8B968A1C760A880025FAEE /* LXDBaseAnimation */;
+			targetProxy = EF8B96A51C760A880025FAEE /* PBXContainerItemProxy */;
+		};
+		EF8B96B11C760A880025FAEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF8B968A1C760A880025FAEE /* LXDBaseAnimation */;
+			targetProxy = EF8B96B01C760A880025FAEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF8B96971C760A880025FAEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8B96981C760A880025FAEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF8B969C1C760A880025FAEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8B969D1C760A880025FAEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF8B96B61C760A880025FAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF8B96B71C760A880025FAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF8B96B91C760A880025FAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXDBaseAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sindrinlin.com.LXDBaseAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF8B96BA1C760A880025FAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXDBaseAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sindrinlin.com.LXDBaseAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF8B96BC1C760A880025FAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXDBaseAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sindrinlin.com.LXDBaseAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXDBaseAnimation.app/LXDBaseAnimation";
+			};
+			name = Debug;
+		};
+		EF8B96BD1C760A880025FAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXDBaseAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sindrinlin.com.LXDBaseAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXDBaseAnimation.app/LXDBaseAnimation";
+			};
+			name = Release;
+		};
+		EF8B96BF1C760A880025FAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXDBaseAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sindrinlin.com.LXDBaseAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXDBaseAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EF8B96C01C760A880025FAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXDBaseAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sindrinlin.com.LXDBaseAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXDBaseAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF8B96861C760A880025FAEE /* Build configuration list for PBXProject "LXDBaseAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8B96B61C760A880025FAEE /* Debug */,
+				EF8B96B71C760A880025FAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8B96B81C760A880025FAEE /* Build configuration list for PBXNativeTarget "LXDBaseAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8B96B91C760A880025FAEE /* Debug */,
+				EF8B96BA1C760A880025FAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8B96BB1C760A880025FAEE /* Build configuration list for PBXNativeTarget "LXDBaseAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8B96BC1C760A880025FAEE /* Debug */,
+				EF8B96BD1C760A880025FAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8B96BE1C760A880025FAEE /* Build configuration list for PBXNativeTarget "LXDBaseAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8B96BF1C760A880025FAEE /* Debug */,
+				EF8B96C01C760A880025FAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF8B96831C760A880025FAEE /* Project object */;
+}

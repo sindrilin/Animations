@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="0Jr-DC-aob">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="leaf" translatesAutoresizingMaskIntoConstraints="NO" id="946-FQ-3Yi">
+                                <rect key="frame" x="80" y="115" width="21" height="19"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80y-6E-3xZ">
+                                <rect key="frame" x="59" y="452" width="92" height="27"/>
+                                <fontDescription key="fontDescription" name="Optima-ExtraBlack" family="Optima" pointSize="22"/>
+                                <color key="textColor" red="0.93647369302949057" green="0.46812344893077612" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Autumn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5c-j7-Itq">
+                                <rect key="frame" x="61" y="452" width="88" height="27"/>
+                                <fontDescription key="fontDescription" name="Optima-ExtraBlack" family="Optima" pointSize="22"/>
+                                <color key="textColor" red="0.93647369300000005" green="0.46812344890000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="80y-6E-3xZ" firstAttribute="centerX" secondItem="0Jr-DC-aob" secondAttribute="centerX" multiplier="0.35" id="1vx-n5-u1r"/>
+                            <constraint firstItem="80y-6E-3xZ" firstAttribute="centerY" secondItem="0Jr-DC-aob" secondAttribute="centerY" multiplier="1.5" id="EKW-O4-c3d"/>
+                            <constraint firstItem="946-FQ-3Yi" firstAttribute="centerY" secondItem="0Jr-DC-aob" secondAttribute="centerY" multiplier="0.4" id="EbO-PK-sw4"/>
+                            <constraint firstItem="0Jr-DC-aob" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Hf1-fv-mev"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0Jr-DC-aob" secondAttribute="bottom" id="Mn9-R9-Syt"/>
+                            <constraint firstItem="946-FQ-3Yi" firstAttribute="centerX" secondItem="0Jr-DC-aob" secondAttribute="centerX" multiplier="0.3" id="RZn-5U-Okm"/>
+                            <constraint firstItem="D5c-j7-Itq" firstAttribute="centerY" secondItem="80y-6E-3xZ" secondAttribute="centerY" id="fov-Kb-B2Q"/>
+                            <constraint firstItem="D5c-j7-Itq" firstAttribute="centerX" secondItem="80y-6E-3xZ" secondAttribute="centerX" id="kXF-xb-mo6"/>
+                            <constraint firstAttribute="trailing" secondItem="0Jr-DC-aob" secondAttribute="trailing" id="qnm-Uz-kVt"/>
+                            <constraint firstItem="0Jr-DC-aob" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="voL-2R-HNg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="autumn" destination="D5c-j7-Itq" id="Jwc-Yf-o1X"/>
+                        <outlet property="leaf" destination="946-FQ-3Yi" id="MH3-ib-4wQ"/>
+                        <outlet property="summer" destination="80y-6E-3xZ" id="bko-sh-ytS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="408" y="323"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="375" height="568"/>
+        <image name="leaf" width="21" height="19"/>
+    </resources>
+</document>

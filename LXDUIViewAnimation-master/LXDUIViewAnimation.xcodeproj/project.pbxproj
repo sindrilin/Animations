@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFB32FD81C50B9AE007F10F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB32FD71C50B9AE007F10F3 /* main.m */; };
+		EFB32FDB1C50B9AE007F10F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB32FDA1C50B9AE007F10F3 /* AppDelegate.m */; };
+		EFB32FDE1C50B9AE007F10F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB32FDD1C50B9AE007F10F3 /* ViewController.m */; };
+		EFB32FE11C50B9AE007F10F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB32FDF1C50B9AE007F10F3 /* Main.storyboard */; };
+		EFB32FE31C50B9AE007F10F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB32FE21C50B9AE007F10F3 /* Assets.xcassets */; };
+		EFB32FE61C50B9AE007F10F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB32FE41C50B9AE007F10F3 /* LaunchScreen.storyboard */; };
+		EFB32FF11C50B9AE007F10F3 /* LXDUIViewAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB32FF01C50B9AE007F10F3 /* LXDUIViewAnimationTests.m */; };
+		EFB32FFC1C50B9AE007F10F3 /* LXDUIViewAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB32FFB1C50B9AE007F10F3 /* LXDUIViewAnimationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFB32FED1C50B9AE007F10F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB32FCB1C50B9AE007F10F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB32FD21C50B9AE007F10F3;
+			remoteInfo = LXDUIViewAnimation;
+		};
+		EFB32FF81C50B9AE007F10F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB32FCB1C50B9AE007F10F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB32FD21C50B9AE007F10F3;
+			remoteInfo = LXDUIViewAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFB32FD31C50B9AE007F10F3 /* LXDUIViewAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXDUIViewAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB32FD71C50B9AE007F10F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFB32FD91C50B9AE007F10F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFB32FDA1C50B9AE007F10F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFB32FDC1C50B9AE007F10F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFB32FDD1C50B9AE007F10F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFB32FE01C50B9AE007F10F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFB32FE21C50B9AE007F10F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFB32FE51C50B9AE007F10F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFB32FE71C50B9AE007F10F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB32FEC1C50B9AE007F10F3 /* LXDUIViewAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXDUIViewAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB32FF01C50B9AE007F10F3 /* LXDUIViewAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXDUIViewAnimationTests.m; sourceTree = "<group>"; };
+		EFB32FF21C50B9AE007F10F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB32FF71C50B9AE007F10F3 /* LXDUIViewAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXDUIViewAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB32FFB1C50B9AE007F10F3 /* LXDUIViewAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXDUIViewAnimationUITests.m; sourceTree = "<group>"; };
+		EFB32FFD1C50B9AE007F10F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFB32FD01C50B9AE007F10F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB32FE91C50B9AE007F10F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB32FF41C50B9AE007F10F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFB32FCA1C50B9AE007F10F3 = {
+			isa = PBXGroup;
+			children = (
+				EFB32FD51C50B9AE007F10F3 /* LXDUIViewAnimation */,
+				EFB32FEF1C50B9AE007F10F3 /* LXDUIViewAnimationTests */,
+				EFB32FFA1C50B9AE007F10F3 /* LXDUIViewAnimationUITests */,
+				EFB32FD41C50B9AE007F10F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFB32FD41C50B9AE007F10F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB32FD31C50B9AE007F10F3 /* LXDUIViewAnimation.app */,
+				EFB32FEC1C50B9AE007F10F3 /* LXDUIViewAnimationTests.xctest */,
+				EFB32FF71C50B9AE007F10F3 /* LXDUIViewAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFB32FD51C50B9AE007F10F3 /* LXDUIViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EFB32FD91C50B9AE007F10F3 /* AppDelegate.h */,
+				EFB32FDA1C50B9AE007F10F3 /* AppDelegate.m */,
+				EFB32FDC1C50B9AE007F10F3 /* ViewController.h */,
+				EFB32FDD1C50B9AE007F10F3 /* ViewController.m */,
+				EFB32FDF1C50B9AE007F10F3 /* Main.storyboard */,
+				EFB32FE21C50B9AE007F10F3 /* Assets.xcassets */,
+				EFB32FE41C50B9AE007F10F3 /* LaunchScreen.storyboard */,
+				EFB32FE71C50B9AE007F10F3 /* Info.plist */,
+				EFB32FD61C50B9AE007F10F3 /* Supporting Files */,
+			);
+			path = LXDUIViewAnimation;
+			sourceTree = "<group>";
+		};
+		EFB32FD61C50B9AE007F10F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFB32FD71C50B9AE007F10F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFB32FEF1C50B9AE007F10F3 /* LXDUIViewAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB32FF01C50B9AE007F10F3 /* LXDUIViewAnimationTests.m */,
+				EFB32FF21C50B9AE007F10F3 /* Info.plist */,
+			);
+			path = LXDUIViewAnimationTests;
+			sourceTree = "<group>";
+		};
+		EFB32FFA1C50B9AE007F10F3 /* LXDUIViewAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB32FFB1C50B9AE007F10F3 /* LXDUIViewAnimationUITests.m */,
+				EFB32FFD1C50B9AE007F10F3 /* Info.plist */,
+			);
+			path = LXDUIViewAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFB32FD21C50B9AE007F10F3 /* LXDUIViewAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB330001C50B9AE007F10F3 /* Build configuration list for PBXNativeTarget "LXDUIViewAnimation" */;
+			buildPhases = (
+				EFB32FCF1C50B9AE007F10F3 /* Sources */,
+				EFB32FD01C50B9AE007F10F3 /* Frameworks */,
+				EFB32FD11C50B9AE007F10F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXDUIViewAnimation;
+			productName = LXDUIViewAnimation;
+			productReference = EFB32FD31C50B9AE007F10F3 /* LXDUIViewAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFB32FEB1C50B9AE007F10F3 /* LXDUIViewAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB330031C50B9AE007F10F3 /* Build configuration list for PBXNativeTarget "LXDUIViewAnimationTests" */;
+			buildPhases = (
+				EFB32FE81C50B9AE007F10F3 /* Sources */,
+				EFB32FE91C50B9AE007F10F3 /* Frameworks */,
+				EFB32FEA1C50B9AE007F10F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB32FEE1C50B9AE007F10F3 /* PBXTargetDependency */,
+			);
+			name = LXDUIViewAnimationTests;
+			productName = LXDUIViewAnimationTests;
+			productReference = EFB32FEC1C50B9AE007F10F3 /* LXDUIViewAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFB32FF61C50B9AE007F10F3 /* LXDUIViewAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB330061C50B9AE007F10F3 /* Build configuration list for PBXNativeTarget "LXDUIViewAnimationUITests" */;
+			buildPhases = (
+				EFB32FF31C50B9AE007F10F3 /* Sources */,
+				EFB32FF41C50B9AE007F10F3 /* Frameworks */,
+				EFB32FF51C50B9AE007F10F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB32FF91C50B9AE007F10F3 /* PBXTargetDependency */,
+			);
+			name = LXDUIViewAnimationUITests;
+			productName = LXDUIViewAnimationUITests;
+			productReference = EFB32FF71C50B9AE007F10F3 /* LXDUIViewAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFB32FCB1C50B9AE007F10F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SindriLin;
+				TargetAttributes = {
+					EFB32FD21C50B9AE007F10F3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EFB32FEB1C50B9AE007F10F3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EFB32FD21C50B9AE007F10F3;
+					};
+					EFB32FF61C50B9AE007F10F3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EFB32FD21C50B9AE007F10F3;
+					};
+				};
+			};
+			buildConfigurationList = EFB32FCE1C50B9AE007F10F3 /* Build configuration list for PBXProject "LXDUIViewAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFB32FCA1C50B9AE007F10F3;
+			productRefGroup = EFB32FD41C50B9AE007F10F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFB32FD21C50B9AE007F10F3 /* LXDUIViewAnimation */,
+				EFB32FEB1C50B9AE007F10F3 /* LXDUIViewAnimationTests */,
+				EFB32FF61C50B9AE007F10F3 /* LXDUIViewAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFB32FD11C50B9AE007F10F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB32FE61C50B9AE007F10F3 /* LaunchScreen.storyboard in Resources */,
+				EFB32FE31C50B9AE007F10F3 /* Assets.xcassets in Resources */,
+				EFB32FE11C50B9AE007F10F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB32FEA1C50B9AE007F10F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB32FF51C50B9AE007F10F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFB32FCF1C50B9AE007F10F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB32FDE1C50B9AE007F10F3 /* ViewController.m in Sources */,
+				EFB32FDB1C50B9AE007F10F3 /* AppDelegate.m in Sources */,
+				EFB32FD81C50B9AE007F10F3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB32FE81C50B9AE007F10F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB32FF11C50B9AE007F10F3 /* LXDUIViewAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB32FF31C50B9AE007F10F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB32FFC1C50B9AE007F10F3 /* LXDUIViewAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFB32FEE1C50B9AE007F10F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB32FD21C50B9AE007F10F3 /* LXDUIViewAnimation */;
+			targetProxy = EFB32FED1C50B9AE007F10F3 /* PBXContainerItemProxy */;
+		};
+		EFB32FF91C50B9AE007F10F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB32FD21C50B9AE007F10F3 /* LXDUIViewAnimation */;
+			targetProxy = EFB32FF81C50B9AE007F10F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFB32FDF1C50B9AE007F10F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB32FE01C50B9AE007F10F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFB32FE41C50B9AE007F10F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB32FE51C50B9AE007F10F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFB32FFE1C50B9AE007F10F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFB32FFF1C50B9AE007F10F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFB330011C50B9AE007F10F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXDUIViewAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sindrilin.com.LXDUIViewAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFB330021C50B9AE007F10F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXDUIViewAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sindrilin.com.LXDUIViewAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFB330041C50B9AE007F10F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXDUIViewAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sindrilin.com.LXDUIViewAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXDUIViewAnimation.app/LXDUIViewAnimation";
+			};
+			name = Debug;
+		};
+		EFB330051C50B9AE007F10F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXDUIViewAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sindrilin.com.LXDUIViewAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXDUIViewAnimation.app/LXDUIViewAnimation";
+			};
+			name = Release;
+		};
+		EFB330071C50B9AE007F10F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXDUIViewAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sindrilin.com.LXDUIViewAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXDUIViewAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EFB330081C50B9AE007F10F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXDUIViewAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sindrilin.com.LXDUIViewAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXDUIViewAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFB32FCE1C50B9AE007F10F3 /* Build configuration list for PBXProject "LXDUIViewAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB32FFE1C50B9AE007F10F3 /* Debug */,
+				EFB32FFF1C50B9AE007F10F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB330001C50B9AE007F10F3 /* Build configuration list for PBXNativeTarget "LXDUIViewAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB330011C50B9AE007F10F3 /* Debug */,
+				EFB330021C50B9AE007F10F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFB330031C50B9AE007F10F3 /* Build configuration list for PBXNativeTarget "LXDUIViewAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB330041C50B9AE007F10F3 /* Debug */,
+				EFB330051C50B9AE007F10F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFB330061C50B9AE007F10F3 /* Build configuration list for PBXNativeTarget "LXDUIViewAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB330071C50B9AE007F10F3 /* Debug */,
+				EFB330081C50B9AE007F10F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFB32FCB1C50B9AE007F10F3 /* Project object */;
+}
