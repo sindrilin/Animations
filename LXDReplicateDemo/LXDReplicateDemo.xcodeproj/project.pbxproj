@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF4C8A211D017436001ADCDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C8A201D017436001ADCDC /* AppDelegate.swift */; };
+		EF4C8A231D017436001ADCDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C8A221D017436001ADCDC /* ViewController.swift */; };
+		EF4C8A261D017436001ADCDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4C8A241D017436001ADCDC /* Main.storyboard */; };
+		EF4C8A281D017436001ADCDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4C8A271D017436001ADCDC /* Assets.xcassets */; };
+		EF4C8A2B1D017436001ADCDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4C8A291D017436001ADCDC /* LaunchScreen.storyboard */; };
+		EF4C8A361D017436001ADCDC /* LXDReplicateDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C8A351D017436001ADCDC /* LXDReplicateDemoTests.swift */; };
+		EF4C8A411D017436001ADCDC /* LXDReplicateDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C8A401D017436001ADCDC /* LXDReplicateDemoUITests.swift */; };
+		EF4C8A581D017843001ADCDC /* LXDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4C8A511D017843001ADCDC /* LXDGroup.m */; };
+		EF4C8A591D017843001ADCDC /* LXDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4C8A531D017843001ADCDC /* LXDQueue.m */; };
+		EF4C8A5A1D017843001ADCDC /* LXDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4C8A551D017843001ADCDC /* LXDSemaphore.m */; };
+		EF4C8A5B1D017843001ADCDC /* LXDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4C8A571D017843001ADCDC /* LXDTimer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF4C8A321D017436001ADCDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4C8A151D017436001ADCDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4C8A1C1D017436001ADCDC;
+			remoteInfo = LXDReplicateDemo;
+		};
+		EF4C8A3D1D017436001ADCDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4C8A151D017436001ADCDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4C8A1C1D017436001ADCDC;
+			remoteInfo = LXDReplicateDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF4C8A1D1D017436001ADCDC /* LXDReplicateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXDReplicateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4C8A201D017436001ADCDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF4C8A221D017436001ADCDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF4C8A251D017436001ADCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF4C8A271D017436001ADCDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF4C8A2A1D017436001ADCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF4C8A2C1D017436001ADCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4C8A311D017436001ADCDC /* LXDReplicateDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXDReplicateDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4C8A351D017436001ADCDC /* LXDReplicateDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXDReplicateDemoTests.swift; sourceTree = "<group>"; };
+		EF4C8A371D017436001ADCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4C8A3C1D017436001ADCDC /* LXDReplicateDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXDReplicateDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4C8A401D017436001ADCDC /* LXDReplicateDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXDReplicateDemoUITests.swift; sourceTree = "<group>"; };
+		EF4C8A421D017436001ADCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4C8A4F1D017843001ADCDC /* LXDGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDGCD.h; sourceTree = "<group>"; };
+		EF4C8A501D017843001ADCDC /* LXDGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDGroup.h; sourceTree = "<group>"; };
+		EF4C8A511D017843001ADCDC /* LXDGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDGroup.m; sourceTree = "<group>"; };
+		EF4C8A521D017843001ADCDC /* LXDQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDQueue.h; sourceTree = "<group>"; };
+		EF4C8A531D017843001ADCDC /* LXDQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDQueue.m; sourceTree = "<group>"; };
+		EF4C8A541D017843001ADCDC /* LXDSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDSemaphore.h; sourceTree = "<group>"; };
+		EF4C8A551D017843001ADCDC /* LXDSemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDSemaphore.m; sourceTree = "<group>"; };
+		EF4C8A561D017843001ADCDC /* LXDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDTimer.h; sourceTree = "<group>"; };
+		EF4C8A571D017843001ADCDC /* LXDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDTimer.m; sourceTree = "<group>"; };
+		EF4C8A5C1D017857001ADCDC /* OC-Swift-Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OC-Swift-Bridge-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4C8A1A1D017436001ADCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4C8A2E1D017436001ADCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4C8A391D017436001ADCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF4C8A141D017436001ADCDC = {
+			isa = PBXGroup;
+			children = (
+				EF4C8A1F1D017436001ADCDC /* LXDReplicateDemo */,
+				EF4C8A341D017436001ADCDC /* LXDReplicateDemoTests */,
+				EF4C8A3F1D017436001ADCDC /* LXDReplicateDemoUITests */,
+				EF4C8A1E1D017436001ADCDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4C8A1E1D017436001ADCDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4C8A1D1D017436001ADCDC /* LXDReplicateDemo.app */,
+				EF4C8A311D017436001ADCDC /* LXDReplicateDemoTests.xctest */,
+				EF4C8A3C1D017436001ADCDC /* LXDReplicateDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4C8A1F1D017436001ADCDC /* LXDReplicateDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EF4C8A5C1D017857001ADCDC /* OC-Swift-Bridge-Header.h */,
+				EF4C8A4E1D017843001ADCDC /* GCD */,
+				EF4C8A201D017436001ADCDC /* AppDelegate.swift */,
+				EF4C8A221D017436001ADCDC /* ViewController.swift */,
+				EF4C8A241D017436001ADCDC /* Main.storyboard */,
+				EF4C8A271D017436001ADCDC /* Assets.xcassets */,
+				EF4C8A291D017436001ADCDC /* LaunchScreen.storyboard */,
+				EF4C8A2C1D017436001ADCDC /* Info.plist */,
+			);
+			path = LXDReplicateDemo;
+			sourceTree = "<group>";
+		};
+		EF4C8A341D017436001ADCDC /* LXDReplicateDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4C8A351D017436001ADCDC /* LXDReplicateDemoTests.swift */,
+				EF4C8A371D017436001ADCDC /* Info.plist */,
+			);
+			path = LXDReplicateDemoTests;
+			sourceTree = "<group>";
+		};
+		EF4C8A3F1D017436001ADCDC /* LXDReplicateDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4C8A401D017436001ADCDC /* LXDReplicateDemoUITests.swift */,
+				EF4C8A421D017436001ADCDC /* Info.plist */,
+			);
+			path = LXDReplicateDemoUITests;
+			sourceTree = "<group>";
+		};
+		EF4C8A4E1D017843001ADCDC /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				EF4C8A4F1D017843001ADCDC /* LXDGCD.h */,
+				EF4C8A501D017843001ADCDC /* LXDGroup.h */,
+				EF4C8A511D017843001ADCDC /* LXDGroup.m */,
+				EF4C8A521D017843001ADCDC /* LXDQueue.h */,
+				EF4C8A531D017843001ADCDC /* LXDQueue.m */,
+				EF4C8A541D017843001ADCDC /* LXDSemaphore.h */,
+				EF4C8A551D017843001ADCDC /* LXDSemaphore.m */,
+				EF4C8A561D017843001ADCDC /* LXDTimer.h */,
+				EF4C8A571D017843001ADCDC /* LXDTimer.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4C8A1C1D017436001ADCDC /* LXDReplicateDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4C8A451D017436001ADCDC /* Build configuration list for PBXNativeTarget "LXDReplicateDemo" */;
+			buildPhases = (
+				EF4C8A191D017436001ADCDC /* Sources */,
+				EF4C8A1A1D017436001ADCDC /* Frameworks */,
+				EF4C8A1B1D017436001ADCDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXDReplicateDemo;
+			productName = LXDReplicateDemo;
+			productReference = EF4C8A1D1D017436001ADCDC /* LXDReplicateDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4C8A301D017436001ADCDC /* LXDReplicateDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4C8A481D017436001ADCDC /* Build configuration list for PBXNativeTarget "LXDReplicateDemoTests" */;
+			buildPhases = (
+				EF4C8A2D1D017436001ADCDC /* Sources */,
+				EF4C8A2E1D017436001ADCDC /* Frameworks */,
+				EF4C8A2F1D017436001ADCDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4C8A331D017436001ADCDC /* PBXTargetDependency */,
+			);
+			name = LXDReplicateDemoTests;
+			productName = LXDReplicateDemoTests;
+			productReference = EF4C8A311D017436001ADCDC /* LXDReplicateDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF4C8A3B1D017436001ADCDC /* LXDReplicateDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4C8A4B1D017436001ADCDC /* Build configuration list for PBXNativeTarget "LXDReplicateDemoUITests" */;
+			buildPhases = (
+				EF4C8A381D017436001ADCDC /* Sources */,
+				EF4C8A391D017436001ADCDC /* Frameworks */,
+				EF4C8A3A1D017436001ADCDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4C8A3E1D017436001ADCDC /* PBXTargetDependency */,
+			);
+			name = LXDReplicateDemoUITests;
+			productName = LXDReplicateDemoUITests;
+			productReference = EF4C8A3C1D017436001ADCDC /* LXDReplicateDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4C8A151D017436001ADCDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CNPay;
+				TargetAttributes = {
+					EF4C8A1C1D017436001ADCDC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EF4C8A301D017436001ADCDC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF4C8A1C1D017436001ADCDC;
+					};
+					EF4C8A3B1D017436001ADCDC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF4C8A1C1D017436001ADCDC;
+					};
+				};
+			};
+			buildConfigurationList = EF4C8A181D017436001ADCDC /* Build configuration list for PBXProject "LXDReplicateDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF4C8A141D017436001ADCDC;
+			productRefGroup = EF4C8A1E1D017436001ADCDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4C8A1C1D017436001ADCDC /* LXDReplicateDemo */,
+				EF4C8A301D017436001ADCDC /* LXDReplicateDemoTests */,
+				EF4C8A3B1D017436001ADCDC /* LXDReplicateDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF4C8A1B1D017436001ADCDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4C8A2B1D017436001ADCDC /* LaunchScreen.storyboard in Resources */,
+				EF4C8A281D017436001ADCDC /* Assets.xcassets in Resources */,
+				EF4C8A261D017436001ADCDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4C8A2F1D017436001ADCDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4C8A3A1D017436001ADCDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF4C8A191D017436001ADCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4C8A5B1D017843001ADCDC /* LXDTimer.m in Sources */,
+				EF4C8A231D017436001ADCDC /* ViewController.swift in Sources */,
+				EF4C8A581D017843001ADCDC /* LXDGroup.m in Sources */,
+				EF4C8A591D017843001ADCDC /* LXDQueue.m in Sources */,
+				EF4C8A5A1D017843001ADCDC /* LXDSemaphore.m in Sources */,
+				EF4C8A211D017436001ADCDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4C8A2D1D017436001ADCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4C8A361D017436001ADCDC /* LXDReplicateDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4C8A381D017436001ADCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4C8A411D017436001ADCDC /* LXDReplicateDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF4C8A331D017436001ADCDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4C8A1C1D017436001ADCDC /* LXDReplicateDemo */;
+			targetProxy = EF4C8A321D017436001ADCDC /* PBXContainerItemProxy */;
+		};
+		EF4C8A3E1D017436001ADCDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4C8A1C1D017436001ADCDC /* LXDReplicateDemo */;
+			targetProxy = EF4C8A3D1D017436001ADCDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF4C8A241D017436001ADCDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4C8A251D017436001ADCDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF4C8A291D017436001ADCDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4C8A2A1D017436001ADCDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF4C8A431D017436001ADCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF4C8A441D017436001ADCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF4C8A461D017436001ADCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXDReplicateDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "http---cnpayany.com.LXDReplicateDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/LXDReplicateDemo/OC-Swift-Bridge-Header.h";
+			};
+			name = Debug;
+		};
+		EF4C8A471D017436001ADCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXDReplicateDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "http---cnpayany.com.LXDReplicateDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/LXDReplicateDemo/OC-Swift-Bridge-Header.h";
+			};
+			name = Release;
+		};
+		EF4C8A491D017436001ADCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXDReplicateDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "http---cnpayany.com.LXDReplicateDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXDReplicateDemo.app/LXDReplicateDemo";
+			};
+			name = Debug;
+		};
+		EF4C8A4A1D017436001ADCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXDReplicateDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "http---cnpayany.com.LXDReplicateDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXDReplicateDemo.app/LXDReplicateDemo";
+			};
+			name = Release;
+		};
+		EF4C8A4C1D017436001ADCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXDReplicateDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "http---cnpayany.com.LXDReplicateDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXDReplicateDemo;
+			};
+			name = Debug;
+		};
+		EF4C8A4D1D017436001ADCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXDReplicateDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "http---cnpayany.com.LXDReplicateDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXDReplicateDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4C8A181D017436001ADCDC /* Build configuration list for PBXProject "LXDReplicateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4C8A431D017436001ADCDC /* Debug */,
+				EF4C8A441D017436001ADCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4C8A451D017436001ADCDC /* Build configuration list for PBXNativeTarget "LXDReplicateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4C8A461D017436001ADCDC /* Debug */,
+				EF4C8A471D017436001ADCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF4C8A481D017436001ADCDC /* Build configuration list for PBXNativeTarget "LXDReplicateDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4C8A491D017436001ADCDC /* Debug */,
+				EF4C8A4A1D017436001ADCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF4C8A4B1D017436001ADCDC /* Build configuration list for PBXNativeTarget "LXDReplicateDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4C8A4C1D017436001ADCDC /* Debug */,
+				EF4C8A4D1D017436001ADCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF4C8A151D017436001ADCDC /* Project object */;
+}
