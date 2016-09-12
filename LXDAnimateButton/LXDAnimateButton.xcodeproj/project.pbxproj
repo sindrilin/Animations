@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF50B7CD1D8647FA00789716 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF50B7CC1D8647FA00789716 /* AppDelegate.swift */; };
+		EF50B7CF1D8647FA00789716 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF50B7CE1D8647FA00789716 /* ViewController.swift */; };
+		EF50B7D21D8647FA00789716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF50B7D01D8647FA00789716 /* Main.storyboard */; };
+		EF50B7D41D8647FA00789716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF50B7D31D8647FA00789716 /* Assets.xcassets */; };
+		EF50B7D71D8647FA00789716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF50B7D51D8647FA00789716 /* LaunchScreen.storyboard */; };
+		EF50B7E21D8647FA00789716 /* LXDAnimateButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF50B7E11D8647FA00789716 /* LXDAnimateButtonTests.swift */; };
+		EF50B7ED1D8647FA00789716 /* LXDAnimateButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF50B7EC1D8647FA00789716 /* LXDAnimateButtonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF50B7DE1D8647FA00789716 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF50B7C11D8647FA00789716 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF50B7C81D8647FA00789716;
+			remoteInfo = LXDAnimateButton;
+		};
+		EF50B7E91D8647FA00789716 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF50B7C11D8647FA00789716 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF50B7C81D8647FA00789716;
+			remoteInfo = LXDAnimateButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF50B7C91D8647FA00789716 /* LXDAnimateButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXDAnimateButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF50B7CC1D8647FA00789716 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF50B7CE1D8647FA00789716 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF50B7D11D8647FA00789716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF50B7D31D8647FA00789716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF50B7D61D8647FA00789716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF50B7D81D8647FA00789716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF50B7DD1D8647FA00789716 /* LXDAnimateButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXDAnimateButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF50B7E11D8647FA00789716 /* LXDAnimateButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXDAnimateButtonTests.swift; sourceTree = "<group>"; };
+		EF50B7E31D8647FA00789716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF50B7E81D8647FA00789716 /* LXDAnimateButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXDAnimateButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF50B7EC1D8647FA00789716 /* LXDAnimateButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXDAnimateButtonUITests.swift; sourceTree = "<group>"; };
+		EF50B7EE1D8647FA00789716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF50B7C61D8647FA00789716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF50B7DA1D8647FA00789716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF50B7E51D8647FA00789716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF50B7C01D8647FA00789716 = {
+			isa = PBXGroup;
+			children = (
+				EF50B7CB1D8647FA00789716 /* LXDAnimateButton */,
+				EF50B7E01D8647FA00789716 /* LXDAnimateButtonTests */,
+				EF50B7EB1D8647FA00789716 /* LXDAnimateButtonUITests */,
+				EF50B7CA1D8647FA00789716 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF50B7CA1D8647FA00789716 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF50B7C91D8647FA00789716 /* LXDAnimateButton.app */,
+				EF50B7DD1D8647FA00789716 /* LXDAnimateButtonTests.xctest */,
+				EF50B7E81D8647FA00789716 /* LXDAnimateButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF50B7CB1D8647FA00789716 /* LXDAnimateButton */ = {
+			isa = PBXGroup;
+			children = (
+				EF50B7CC1D8647FA00789716 /* AppDelegate.swift */,
+				EF50B7CE1D8647FA00789716 /* ViewController.swift */,
+				EF50B7D01D8647FA00789716 /* Main.storyboard */,
+				EF50B7D31D8647FA00789716 /* Assets.xcassets */,
+				EF50B7D51D8647FA00789716 /* LaunchScreen.storyboard */,
+				EF50B7D81D8647FA00789716 /* Info.plist */,
+			);
+			path = LXDAnimateButton;
+			sourceTree = "<group>";
+		};
+		EF50B7E01D8647FA00789716 /* LXDAnimateButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF50B7E11D8647FA00789716 /* LXDAnimateButtonTests.swift */,
+				EF50B7E31D8647FA00789716 /* Info.plist */,
+			);
+			path = LXDAnimateButtonTests;
+			sourceTree = "<group>";
+		};
+		EF50B7EB1D8647FA00789716 /* LXDAnimateButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF50B7EC1D8647FA00789716 /* LXDAnimateButtonUITests.swift */,
+				EF50B7EE1D8647FA00789716 /* Info.plist */,
+			);
+			path = LXDAnimateButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF50B7C81D8647FA00789716 /* LXDAnimateButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF50B7F11D8647FA00789716 /* Build configuration list for PBXNativeTarget "LXDAnimateButton" */;
+			buildPhases = (
+				EF50B7C51D8647FA00789716 /* Sources */,
+				EF50B7C61D8647FA00789716 /* Frameworks */,
+				EF50B7C71D8647FA00789716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXDAnimateButton;
+			productName = LXDAnimateButton;
+			productReference = EF50B7C91D8647FA00789716 /* LXDAnimateButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF50B7DC1D8647FA00789716 /* LXDAnimateButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF50B7F41D8647FA00789716 /* Build configuration list for PBXNativeTarget "LXDAnimateButtonTests" */;
+			buildPhases = (
+				EF50B7D91D8647FA00789716 /* Sources */,
+				EF50B7DA1D8647FA00789716 /* Frameworks */,
+				EF50B7DB1D8647FA00789716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF50B7DF1D8647FA00789716 /* PBXTargetDependency */,
+			);
+			name = LXDAnimateButtonTests;
+			productName = LXDAnimateButtonTests;
+			productReference = EF50B7DD1D8647FA00789716 /* LXDAnimateButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF50B7E71D8647FA00789716 /* LXDAnimateButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF50B7F71D8647FA00789716 /* Build configuration list for PBXNativeTarget "LXDAnimateButtonUITests" */;
+			buildPhases = (
+				EF50B7E41D8647FA00789716 /* Sources */,
+				EF50B7E51D8647FA00789716 /* Frameworks */,
+				EF50B7E61D8647FA00789716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF50B7EA1D8647FA00789716 /* PBXTargetDependency */,
+			);
+			name = LXDAnimateButtonUITests;
+			productName = LXDAnimateButtonUITests;
+			productReference = EF50B7E81D8647FA00789716 /* LXDAnimateButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF50B7C11D8647FA00789716 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sindriLin;
+				TargetAttributes = {
+					EF50B7C81D8647FA00789716 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 23R3RZE6E9;
+					};
+					EF50B7DC1D8647FA00789716 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 23R3RZE6E9;
+						TestTargetID = EF50B7C81D8647FA00789716;
+					};
+					EF50B7E71D8647FA00789716 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 23R3RZE6E9;
+						TestTargetID = EF50B7C81D8647FA00789716;
+					};
+				};
+			};
+			buildConfigurationList = EF50B7C41D8647FA00789716 /* Build configuration list for PBXProject "LXDAnimateButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF50B7C01D8647FA00789716;
+			productRefGroup = EF50B7CA1D8647FA00789716 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF50B7C81D8647FA00789716 /* LXDAnimateButton */,
+				EF50B7DC1D8647FA00789716 /* LXDAnimateButtonTests */,
+				EF50B7E71D8647FA00789716 /* LXDAnimateButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF50B7C71D8647FA00789716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF50B7D71D8647FA00789716 /* LaunchScreen.storyboard in Resources */,
+				EF50B7D41D8647FA00789716 /* Assets.xcassets in Resources */,
+				EF50B7D21D8647FA00789716 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF50B7DB1D8647FA00789716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF50B7E61D8647FA00789716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF50B7C51D8647FA00789716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF50B7CF1D8647FA00789716 /* ViewController.swift in Sources */,
+				EF50B7CD1D8647FA00789716 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF50B7D91D8647FA00789716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF50B7E21D8647FA00789716 /* LXDAnimateButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF50B7E41D8647FA00789716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF50B7ED1D8647FA00789716 /* LXDAnimateButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF50B7DF1D8647FA00789716 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF50B7C81D8647FA00789716 /* LXDAnimateButton */;
+			targetProxy = EF50B7DE1D8647FA00789716 /* PBXContainerItemProxy */;
+		};
+		EF50B7EA1D8647FA00789716 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF50B7C81D8647FA00789716 /* LXDAnimateButton */;
+			targetProxy = EF50B7E91D8647FA00789716 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF50B7D01D8647FA00789716 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF50B7D11D8647FA00789716 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF50B7D51D8647FA00789716 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF50B7D61D8647FA00789716 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF50B7EF1D8647FA00789716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EF50B7F01D8647FA00789716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF50B7F21D8647FA00789716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = LXDAnimateButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sindrinlin.com.LXDAnimateButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF50B7F31D8647FA00789716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = LXDAnimateButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sindrinlin.com.LXDAnimateButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		EF50B7F51D8647FA00789716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXDAnimateButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sindrinlin.com.LXDAnimateButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXDAnimateButton.app/LXDAnimateButton";
+			};
+			name = Debug;
+		};
+		EF50B7F61D8647FA00789716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXDAnimateButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sindrinlin.com.LXDAnimateButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXDAnimateButton.app/LXDAnimateButton";
+			};
+			name = Release;
+		};
+		EF50B7F81D8647FA00789716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXDAnimateButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sindrinlin.com.LXDAnimateButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXDAnimateButton;
+			};
+			name = Debug;
+		};
+		EF50B7F91D8647FA00789716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXDAnimateButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sindrinlin.com.LXDAnimateButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXDAnimateButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF50B7C41D8647FA00789716 /* Build configuration list for PBXProject "LXDAnimateButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF50B7EF1D8647FA00789716 /* Debug */,
+				EF50B7F01D8647FA00789716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF50B7F11D8647FA00789716 /* Build configuration list for PBXNativeTarget "LXDAnimateButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF50B7F21D8647FA00789716 /* Debug */,
+				EF50B7F31D8647FA00789716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF50B7F41D8647FA00789716 /* Build configuration list for PBXNativeTarget "LXDAnimateButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF50B7F51D8647FA00789716 /* Debug */,
+				EF50B7F61D8647FA00789716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF50B7F71D8647FA00789716 /* Build configuration list for PBXNativeTarget "LXDAnimateButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF50B7F81D8647FA00789716 /* Debug */,
+				EF50B7F91D8647FA00789716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF50B7C11D8647FA00789716 /* Project object */;
+}
