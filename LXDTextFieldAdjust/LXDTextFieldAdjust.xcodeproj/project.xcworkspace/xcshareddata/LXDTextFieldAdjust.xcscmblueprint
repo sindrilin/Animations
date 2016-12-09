@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1AADA6559D0415C31DB78826A5DA18E23E0CCAE1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1AADA6559D0415C31DB78826A5DA18E23E0CCAE1" : 9223372036854775807,
+    "16202C0E296E4297551D1AFCD802F41EDF289B6B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FF2A6F97-96F3-4CBE-8080-0E22726AEFA2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1AADA6559D0415C31DB78826A5DA18E23E0CCAE1" : "LXDTextFieldAdjust\/",
+    "16202C0E296E4297551D1AFCD802F41EDF289B6B" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LXDTextFieldAdjust",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LXDTextFieldAdjust.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JustKeepRunning\/Animations.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "16202C0E296E4297551D1AFCD802F41EDF289B6B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JustKeepRunning\/LXDTextFieldAdjust.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1AADA6559D0415C31DB78826A5DA18E23E0CCAE1"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SpringViewController" customModule="TimerAnimation" customModuleProvider="target">
+            <connections>
+                <outlet property="referView" destination="zGs-zA-0Ia" id="KVM-qY-6W1"/>
+                <outlet property="springView" destination="qBY-Ra-S8C" id="em3-ZK-bzc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Jz-Mn-lUG">
+                    <rect key="frame" x="158.5" y="485.5" width="57" height="30"/>
+                    <state key="normal" title="Animate"/>
+                    <connections>
+                        <action selector="animate:" destination="-1" eventType="touchUpInside" id="u6X-gQ-44L"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zGs-zA-0Ia">
+                    <rect key="frame" x="0.0" y="-1" width="2" height="2"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="UAN-7x-nsL"/>
+                        <constraint firstAttribute="width" constant="2" id="r2N-H7-sdF"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qBY-Ra-S8C">
+                    <rect key="frame" x="0.0" y="-1" width="20" height="20"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="JPg-4K-G5n"/>
+                        <constraint firstAttribute="height" constant="20" id="nGJ-01-aUu"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="zGs-zA-0Ia" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="-1" id="7VB-L4-1lI"/>
+                <constraint firstItem="qBY-Ra-S8C" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="-1" id="dus-G2-guO"/>
+                <constraint firstItem="qBY-Ra-S8C" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="e3O-53-Uhg"/>
+                <constraint firstItem="8Jz-Mn-lUG" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="q7j-2l-jLP"/>
+                <constraint firstItem="zGs-zA-0Ia" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rtU-jW-r2I"/>
+                <constraint firstItem="8Jz-Mn-lUG" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="1.5" id="sPi-vd-4Re"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1929E81DF545AD004DB152 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1929E71DF545AD004DB152 /* AppDelegate.swift */; };
+		EF1929EA1DF545AD004DB152 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1929E91DF545AD004DB152 /* ViewController.swift */; };
+		EF1929ED1DF545AD004DB152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1929EB1DF545AD004DB152 /* Main.storyboard */; };
+		EF1929EF1DF545AD004DB152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1929EE1DF545AD004DB152 /* Assets.xcassets */; };
+		EF1929F21DF545AD004DB152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1929F01DF545AD004DB152 /* LaunchScreen.storyboard */; };
+		EF1929FD1DF545AD004DB152 /* TimerAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1929FC1DF545AD004DB152 /* TimerAnimationTests.swift */; };
+		EF192A081DF545AD004DB152 /* TimerAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF192A071DF545AD004DB152 /* TimerAnimationUITests.swift */; };
+		EF192A191DF5545A004DB152 /* XiuXiuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF192A171DF5545A004DB152 /* XiuXiuViewController.swift */; };
+		EF192A1A1DF5545A004DB152 /* XiuXiuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF192A181DF5545A004DB152 /* XiuXiuViewController.xib */; };
+		EF192A241DF6621E004DB152 /* SpringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF192A221DF6621E004DB152 /* SpringViewController.swift */; };
+		EF192A251DF6621E004DB152 /* SpringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF192A231DF6621E004DB152 /* SpringViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF1929F91DF545AD004DB152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1929DC1DF545AD004DB152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1929E31DF545AD004DB152;
+			remoteInfo = TimerAnimation;
+		};
+		EF192A041DF545AD004DB152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1929DC1DF545AD004DB152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1929E31DF545AD004DB152;
+			remoteInfo = TimerAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF1929E41DF545AD004DB152 /* TimerAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1929E71DF545AD004DB152 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF1929E91DF545AD004DB152 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF1929EC1DF545AD004DB152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF1929EE1DF545AD004DB152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF1929F11DF545AD004DB152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF1929F31DF545AD004DB152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1929F81DF545AD004DB152 /* TimerAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1929FC1DF545AD004DB152 /* TimerAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerAnimationTests.swift; sourceTree = "<group>"; };
+		EF1929FE1DF545AD004DB152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF192A031DF545AD004DB152 /* TimerAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF192A071DF545AD004DB152 /* TimerAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerAnimationUITests.swift; sourceTree = "<group>"; };
+		EF192A091DF545AD004DB152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF192A171DF5545A004DB152 /* XiuXiuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XiuXiuViewController.swift; sourceTree = "<group>"; };
+		EF192A181DF5545A004DB152 /* XiuXiuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XiuXiuViewController.xib; sourceTree = "<group>"; };
+		EF192A221DF6621E004DB152 /* SpringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringViewController.swift; sourceTree = "<group>"; };
+		EF192A231DF6621E004DB152 /* SpringViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpringViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF1929E11DF545AD004DB152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1929F51DF545AD004DB152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF192A001DF545AD004DB152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF1929DB1DF545AD004DB152 = {
+			isa = PBXGroup;
+			children = (
+				EF1929E61DF545AD004DB152 /* TimerAnimation */,
+				EF1929FB1DF545AD004DB152 /* TimerAnimationTests */,
+				EF192A061DF545AD004DB152 /* TimerAnimationUITests */,
+				EF1929E51DF545AD004DB152 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF1929E51DF545AD004DB152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF1929E41DF545AD004DB152 /* TimerAnimation.app */,
+				EF1929F81DF545AD004DB152 /* TimerAnimationTests.xctest */,
+				EF192A031DF545AD004DB152 /* TimerAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1929E61DF545AD004DB152 /* TimerAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EF1929E71DF545AD004DB152 /* AppDelegate.swift */,
+				EF1929E91DF545AD004DB152 /* ViewController.swift */,
+				EF1929EB1DF545AD004DB152 /* Main.storyboard */,
+				EF1929EE1DF545AD004DB152 /* Assets.xcassets */,
+				EF1929F01DF545AD004DB152 /* LaunchScreen.storyboard */,
+				EF1929F31DF545AD004DB152 /* Info.plist */,
+				EF192A171DF5545A004DB152 /* XiuXiuViewController.swift */,
+				EF192A181DF5545A004DB152 /* XiuXiuViewController.xib */,
+				EF192A221DF6621E004DB152 /* SpringViewController.swift */,
+				EF192A231DF6621E004DB152 /* SpringViewController.xib */,
+			);
+			path = TimerAnimation;
+			sourceTree = "<group>";
+		};
+		EF1929FB1DF545AD004DB152 /* TimerAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1929FC1DF545AD004DB152 /* TimerAnimationTests.swift */,
+				EF1929FE1DF545AD004DB152 /* Info.plist */,
+			);
+			path = TimerAnimationTests;
+			sourceTree = "<group>";
+		};
+		EF192A061DF545AD004DB152 /* TimerAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF192A071DF545AD004DB152 /* TimerAnimationUITests.swift */,
+				EF192A091DF545AD004DB152 /* Info.plist */,
+			);
+			path = TimerAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF1929E31DF545AD004DB152 /* TimerAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF192A0C1DF545AD004DB152 /* Build configuration list for PBXNativeTarget "TimerAnimation" */;
+			buildPhases = (
+				EF1929E01DF545AD004DB152 /* Sources */,
+				EF1929E11DF545AD004DB152 /* Frameworks */,
+				EF1929E21DF545AD004DB152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimerAnimation;
+			productName = TimerAnimation;
+			productReference = EF1929E41DF545AD004DB152 /* TimerAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF1929F71DF545AD004DB152 /* TimerAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF192A0F1DF545AD004DB152 /* Build configuration list for PBXNativeTarget "TimerAnimationTests" */;
+			buildPhases = (
+				EF1929F41DF545AD004DB152 /* Sources */,
+				EF1929F51DF545AD004DB152 /* Frameworks */,
+				EF1929F61DF545AD004DB152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1929FA1DF545AD004DB152 /* PBXTargetDependency */,
+			);
+			name = TimerAnimationTests;
+			productName = TimerAnimationTests;
+			productReference = EF1929F81DF545AD004DB152 /* TimerAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF192A021DF545AD004DB152 /* TimerAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF192A121DF545AD004DB152 /* Build configuration list for PBXNativeTarget "TimerAnimationUITests" */;
+			buildPhases = (
+				EF1929FF1DF545AD004DB152 /* Sources */,
+				EF192A001DF545AD004DB152 /* Frameworks */,
+				EF192A011DF545AD004DB152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF192A051DF545AD004DB152 /* PBXTargetDependency */,
+			);
+			name = TimerAnimationUITests;
+			productName = TimerAnimationUITests;
+			productReference = EF192A031DF545AD004DB152 /* TimerAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF1929DC1DF545AD004DB152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Jolimark;
+				TargetAttributes = {
+					EF1929E31DF545AD004DB152 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7J57ACJ383;
+						ProvisioningStyle = Automatic;
+					};
+					EF1929F71DF545AD004DB152 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7J57ACJ383;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF1929E31DF545AD004DB152;
+					};
+					EF192A021DF545AD004DB152 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7J57ACJ383;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF1929E31DF545AD004DB152;
+					};
+				};
+			};
+			buildConfigurationList = EF1929DF1DF545AD004DB152 /* Build configuration list for PBXProject "TimerAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF1929DB1DF545AD004DB152;
+			productRefGroup = EF1929E51DF545AD004DB152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF1929E31DF545AD004DB152 /* TimerAnimation */,
+				EF1929F71DF545AD004DB152 /* TimerAnimationTests */,
+				EF192A021DF545AD004DB152 /* TimerAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF1929E21DF545AD004DB152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF192A251DF6621E004DB152 /* SpringViewController.xib in Resources */,
+				EF192A1A1DF5545A004DB152 /* XiuXiuViewController.xib in Resources */,
+				EF1929F21DF545AD004DB152 /* LaunchScreen.storyboard in Resources */,
+				EF1929EF1DF545AD004DB152 /* Assets.xcassets in Resources */,
+				EF1929ED1DF545AD004DB152 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1929F61DF545AD004DB152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF192A011DF545AD004DB152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF1929E01DF545AD004DB152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1929EA1DF545AD004DB152 /* ViewController.swift in Sources */,
+				EF1929E81DF545AD004DB152 /* AppDelegate.swift in Sources */,
+				EF192A191DF5545A004DB152 /* XiuXiuViewController.swift in Sources */,
+				EF192A241DF6621E004DB152 /* SpringViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1929F41DF545AD004DB152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1929FD1DF545AD004DB152 /* TimerAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1929FF1DF545AD004DB152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF192A081DF545AD004DB152 /* TimerAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF1929FA1DF545AD004DB152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1929E31DF545AD004DB152 /* TimerAnimation */;
+			targetProxy = EF1929F91DF545AD004DB152 /* PBXContainerItemProxy */;
+		};
+		EF192A051DF545AD004DB152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1929E31DF545AD004DB152 /* TimerAnimation */;
+			targetProxy = EF192A041DF545AD004DB152 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF1929EB1DF545AD004DB152 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1929EC1DF545AD004DB152 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF1929F01DF545AD004DB152 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1929F11DF545AD004DB152 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF192A0A1DF545AD004DB152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF192A0B1DF545AD004DB152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF192A0D1DF545AD004DB152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7J57ACJ383;
+				INFOPLIST_FILE = TimerAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jolimark.com.TimerAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF192A0E1DF545AD004DB152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7J57ACJ383;
+				INFOPLIST_FILE = TimerAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jolimark.com.TimerAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EF192A101DF545AD004DB152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7J57ACJ383;
+				INFOPLIST_FILE = TimerAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jolimark.com.TimerAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimerAnimation.app/TimerAnimation";
+			};
+			name = Debug;
+		};
+		EF192A111DF545AD004DB152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7J57ACJ383;
+				INFOPLIST_FILE = TimerAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jolimark.com.TimerAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimerAnimation.app/TimerAnimation";
+			};
+			name = Release;
+		};
+		EF192A131DF545AD004DB152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7J57ACJ383;
+				INFOPLIST_FILE = TimerAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jolimark.com.TimerAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TimerAnimation;
+			};
+			name = Debug;
+		};
+		EF192A141DF545AD004DB152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7J57ACJ383;
+				INFOPLIST_FILE = TimerAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jolimark.com.TimerAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TimerAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF1929DF1DF545AD004DB152 /* Build configuration list for PBXProject "TimerAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF192A0A1DF545AD004DB152 /* Debug */,
+				EF192A0B1DF545AD004DB152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF192A0C1DF545AD004DB152 /* Build configuration list for PBXNativeTarget "TimerAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF192A0D1DF545AD004DB152 /* Debug */,
+				EF192A0E1DF545AD004DB152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF192A0F1DF545AD004DB152 /* Build configuration list for PBXNativeTarget "TimerAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF192A101DF545AD004DB152 /* Debug */,
+				EF192A111DF545AD004DB152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF192A121DF545AD004DB152 /* Build configuration list for PBXNativeTarget "TimerAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF192A131DF545AD004DB152 /* Debug */,
+				EF192A141DF545AD004DB152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF1929DC1DF545AD004DB152 /* Project object */;
+}
